@@ -1,0 +1,21 @@
+.card {
+    background-color: #4f4f56;
+    margin: 20px;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.author {
+    color: #999999;
+}
+
+.like-count {
+    color: #84ff84;
+    margin-right: 10px;
+}
+
+.dislike-count {
+    color: #ff6e6e;
+}

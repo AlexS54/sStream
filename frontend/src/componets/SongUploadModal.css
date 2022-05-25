@@ -1,0 +1,32 @@
+.song-upload-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.song-upload-container {
+    background-color: #282c34;
+    height: 90%;
+    width: 80%;
+    text-align: center;
+}
+
+.song-main-container > h1 {
+    margin: 0 0 0 10px;
+}
+
+.song-upload-container input {
+    font-size: 2rem;
+}
+
+.upload-file-button {
+    margin-top: 5rem;
+    font-size: 2rem;
+    cursor: pointer;
+}

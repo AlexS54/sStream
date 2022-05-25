@@ -1,0 +1,58 @@
+body{
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow-x: hidden;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.songs {
+  min-width: 100vw;
+  min-height: 15rem;
+  background-color: #d0d0d0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.upload-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 40px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.signout-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 40px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: smaller;
+  padding: .5rem;
+}
+
+.donate-section {
+  display: flex;
+}
+
+.donate-section > form {
+  margin-left: 10px;
+}

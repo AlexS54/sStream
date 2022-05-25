@@ -1,0 +1,8 @@
+.profile-card {
+    display: flex;
+    align-items: center;
+}
+
+.profile-card span {
+    margin-left: 5px;
+}
